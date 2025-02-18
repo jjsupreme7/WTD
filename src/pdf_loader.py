@@ -1,6 +1,6 @@
 import os
 import PyPDF2
-from src import memory
+from src import pdf_loader
 
 
 class PDFLoader:
