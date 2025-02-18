@@ -1,5 +1,7 @@
 from sentence_transformers import SentenceTransformer, util
 import numpy as np
+from src import memory
+
 
 class VectorSearch:
     """Handles document vectorization and retrieval for tax determinations."""

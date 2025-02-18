@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-import chatbot
+from src import chatbot  # Explicitly import from src
 
 app = FastAPI()
 chat = chatbot.TaxChatbot()
@@ -12,3 +12,4 @@ def read_root():
 def query_tax_determination(question: str):
     response = chat.process_query(question)
     return {"response": response}
+

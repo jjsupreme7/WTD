@@ -1,4 +1,6 @@
 import re
+from src import memory
+
 
 def generate_detailed_summary(text):
     """Generates a more detailed summary of a tax determination."""

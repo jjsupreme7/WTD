@@ -1,5 +1,7 @@
 import os
 import PyPDF2
+from src import memory
+
 
 class PDFLoader:
     """Loads and extracts text from PDF files in the WA_PDF directory."""

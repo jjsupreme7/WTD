@@ -1,4 +1,5 @@
-import memory
+from src import memory
+
 import pdf_loader
 import vector_store
 import utils
